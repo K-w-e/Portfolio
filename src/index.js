@@ -6,8 +6,14 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <App />
+        </Route>
+      </Switch>
+    </Router>
+  <React.StrictMode>,
   document.getElementById('root')
 );
 
