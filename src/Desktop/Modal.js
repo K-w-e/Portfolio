@@ -1,8 +1,8 @@
 import React from 'react';
 import Draggable from 'react-draggable';
-import red from '.././assets/red.jpg';
-import yellow from '.././assets/yellow.jpg';
-import green from '.././assets/green.jpg';
+import red from './.././assets/red.jpg';
+import yellow from './.././assets/yellow.jpg';
+import green from './.././assets/green.jpg';
 import './Modal.css';
 import Content from '../Content/Content';
 
