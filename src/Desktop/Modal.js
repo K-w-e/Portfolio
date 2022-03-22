@@ -11,13 +11,12 @@ const Modal = (props) => {
         <Draggable
             handle=".navbar"
             position={null}
-        //defaultPosition={{ x: 0, y: 0 }}
         >
             <div className="draggable" id={props.id}>
                 <div className="navbar">
                     <img src={red} onClick={props.close} />
                     <img src={yellow} />
-                    <img src={green} />
+                    <img src={green} onClick={()=> window.open(props.data.Url, "_blank")}/>
                     <span className="tooltip"> Click or Drag me! :)</span>
                     <hr />
                 </div>
